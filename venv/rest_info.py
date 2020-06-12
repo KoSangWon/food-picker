@@ -58,7 +58,7 @@ def rest_info_related_order():
     search_input = driver.find_element_by_xpath('/html/body/div[3]/div[1]/div[1]/form/div/div[2]/div/span[1]/input')
     search_input.send_keys(food)
     search_input.send_keys('\n')
-    time.sleep(3)
+    time.sleep(4)
     req = driver.page_source
 
     print("위치 인식이 끝났습니다! 아래에 리스트를 보여드릴게요!")
@@ -78,7 +78,6 @@ def rest_info_related_order():
 
 
 
-#급해서 모듈화 안시키고 그냥 복붙
 def rest_info_distance_order():
     food = input("원하는 메뉴를 입력하세요 : ")
     print("현재 위치를 인식 중이에요!")

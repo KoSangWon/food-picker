@@ -3,7 +3,7 @@ import pymysql
 
 def show_my_rest():
     conn = pymysql.connect(host='localhost', user='root',
-                           password='*****', db='restaurant',
+                           password='tkddnjs8476!', db='restaurant',
                            unix_socket="/tmp/mysql.sock")
 
     while True:
